@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aula Banco de dados</title>
+</head>
+<body>
+    <h1>Aula Banco de dados</h1>
+    <div>
+        <h3>Solução das aula de banco de dados</h3>
+    </div>
+    <div class="fundo">
+        <div class="flex">
+            <div class="red_"></div>
+            <div class="yellow_"></div>
+        </div>
+        <spam>
+            CREATE TABLE CLIENTE (<br>
+    NUMERO_ID   SERIAL,<br>
+    NOME        VARCHAR(150) NOT NULL,<br>
+    ENDERECO    VARCHAR (150) NOT NULL,<br>
+    <br>
+    CONSTRAINT PK_CLIENTE PRIMARY KEY (NUMERO_ID)<br>
+    <br>
+);<br>
+<br>
+<br>
+CREATE TABLE CARRO (<br>
+    REGISTRO    SERIAL,<br>
+    MARCA       VARCHAR(20),<br>
+    MODELO      VARCHAR(20),<br>
+    COR         VARCHAR(20),<br>
+    
+    CONSTRAINT PK_REGISTRO PRIMARY KEY (REGISTRO)<br>
+);<br>
+        </spam>
+    </div>
+    <div>
+        <a href="pokedex.html">Pokedex</a>
+    </div>
+</body>
+</html>

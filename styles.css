@@ -1,0 +1,43 @@
+body{
+    background-color: beige;
+    font-family: 'Montserrat';
+    color: black;
+    align-items: center;
+    width: 75%;
+    height: 0 auto;
+    padding: 0;
+    margin: auto;
+}
+
+.red_{
+    border-radius: 50px;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin: 5px;
+}
+.yellow_{
+    border-radius: 50px;
+    background-color: rgb(255, 228, 73);
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin: 5px;
+}
+
+.fundo{
+    align-items: center;
+    background-color: #1C2026;
+    color: white;
+    padding: 13px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+}
