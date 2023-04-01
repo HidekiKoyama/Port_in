@@ -1,0 +1,16 @@
+body{
+    background-color: #0000;
+    color: aliceblue;
+    font-family: 'Montserrat';
+    width: 75%;
+
+
+}
+.caixa_p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.app{
+    width: 200px;
+}
